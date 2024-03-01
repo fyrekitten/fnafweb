@@ -153,7 +153,7 @@ function animate() {
     if (logoFNAFFrameIndexes.length == x) { 
         x = 1; 
     } 
-    logoFNAF.src = "/images/misc/logo" + logoFNAFFrameIndexes[x] + ".png" 
+    logoFNAF.src = "/fnafweb/images/misc/logo" + logoFNAFFrameIndexes[x] + ".png" 
     x++; 
 } 
 
