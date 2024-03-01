@@ -46,9 +46,9 @@ let staticframes = [
 
 function preloadStaticFrames () {
     for (let index = 0; index < staticframes.length; ++index) {
-        console.log("images/" + staticframes[index] + ".png")
+        console.log("/fnafweb/images/" + staticframes[index] + ".png")
         var img=new Image();
-        img.src="images/" + staticframes[index] + ".png";
+        img.src="/fnafweb/images/" + staticframes[index] + ".png";
     }
 }
 
@@ -58,9 +58,9 @@ function preloadAllImages () {
     for (var animation in animations) {
         if (animations.hasOwnProperty(animation)) {
             for (let i = 1; i <= animations[animation]; i++) {
-                console.log("images/" + animation + i + ".png")
+                console.log("/fnafweb/images/" + animation + i + ".png")
                 var img=new Image();
-                img.src="images/" + animation + i + ".png";
+                img.src="/fnafweb/images/" + animation + i + ".png";
             }
         }
     }
